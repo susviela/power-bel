@@ -1,0 +1,19 @@
+# POWER Bel
+
+A idéia inicial desse projeto é desenvolver um sistema web, que possa servir de ferramenta de gestão comercial para salões de beleza.
+
+Alguns recursos já pensados para fazerem parte do sistema são:
+-Agendar serviços online
+-Gerenciar base de clientes
+-Gerenciar estoque
+-Controlar fluxo de caixa
+-Calcular comissões
+-Criar um site personalizado
+
+As ferramentas usadas para que o projeto possa ser realizado são:
+
+-PHP
+-HTML5
+-Bootstrap (mesmo estando em Beta vamos usar a versão 4)
+-PostgreSql
+-JavaScript
