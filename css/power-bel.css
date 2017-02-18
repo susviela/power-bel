@@ -1,0 +1,40 @@
+/* 
+    Created on : 15/02/2017, 15:27:46
+    Author     : susviela
+*/
+
+
+/* NOSSOS SERVIÇOS
+------------------------- */
+.servicos-cabecalho {
+    color: #f07746;       /* Laranja */
+    font-weight: 700;     /* bold */
+}
+.servicos-subtitulo {
+    font-style: italic;
+}
+
+
+/* CLIENTES DIZEM
+------------------------- */
+.clientes-cabecalho-fundo {
+    background-color: #f3a861;    /* Laranja opaco*/
+}
+
+.clientes-cabecalho {
+    color: #fff;           /* Branco */
+    font-weight: 700;     /* bold */
+}
+
+.clientes-row {
+    margin-top:20px;
+}
+
+
+
+/* RODAPÉ
+------------------------- */
+.rodape {
+    /*height: 60px;*/
+    background-color:  #f3a861;    /* Cor fundo */
+}
