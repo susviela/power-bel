@@ -14,7 +14,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="icon" href="imagens/favicon.ico">
         
-        <!-- Bootstrap CSS -->
+        <!-- Bootstrap 4 CSS -->
         <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/power-bel.css">
      </head>
@@ -22,6 +22,7 @@
 
         <!-- BARRA MENU -->
         <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+            
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -35,9 +36,11 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Principal <span class="sr-only">(current)</span></a>
                     </li>
+                    
                     <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
                     </li>
+                    
                     <li class="nav-item">
                         <a class="nav-link disabled" href="#">Disabled</a>
                     </li>
@@ -53,8 +56,8 @@
                     
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    <input class="form-control mr-sm-2" type="text" >
+                    <button class="btn btn-outline-success" type="submit">Pesquisar</button>
                 </form>
             </div>
         </nav>
@@ -144,9 +147,11 @@
                     <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
                 </div>
                 <div class="col-md-5">
-                    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                    <img class="img-fluid " src="imagens/cabelo.jpg" alt="Corte de cabelos">
                 </div>
             </div>
+            
+            <hr/>
 
         </div>
         <!-- fim - NOSSOS SERVIÇOS -->
@@ -177,7 +182,7 @@
                 </div><!-- /.col-lg-4 -->
 
                 <div class="col-lg-4 text-center">
-                    <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                    <img class="rounded-circle" src="imagens/cliente-1.jpg" alt="imagem cliente-1" width="140" height="140">
                     <h2>Heading</h2>
                     <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
                     <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
@@ -196,19 +201,19 @@
                 <div class="row">
                     
                     <div class="col-md-3">  <!-- coluna 1 do rodapé -->
-                        AAA
+                        <p class="text-center  text-muted"> <strong>Serviços</strong> </p>
                     </div>
                     
                     <div class="col-md-3">  <!-- coluna 2 do rodapé -->
-                        BBB
+                        <p class="text-center text-muted"> <strong>Clientes</strong> </p>
                     </div>
                     
                     <div class="col-md-3">  <!-- coluna 3 do rodapé -->
-                        CCC
+                        <p class="text-center text-muted"> <strong>Redes Sociais</strong> </p>
                     </div>
                     
                     <div class="col-md-3">  <!-- coluna 4 do rodapé -->
-                        DDD
+                        <p class="text-center text-muted"> <strong>Contato</strong> </p>
                     </div>
 
                 </div>                
@@ -217,7 +222,7 @@
                     
                     <div class="col-md-12 text-center">  
                         <span class="text-muted"> 
-                            <small> &copy; POWER-Bel Sistema de gestão de Salões de beleza <br>
+                            <small> &copy;2017 - POWER-Bel Sistema de gestão de Salões de beleza <br>
                                 https://github.com/susviela/power-bel
                             </small> 
                         </span>
@@ -230,7 +235,7 @@
         </footer>
         <!-- fim - RODAPÉ -->
         
-        <!-- jQuery first, then Tether, then Bootstrap JS. -->
+        <!-- jQuery first, then Tether, then Bootstrap 4 JS. -->
         <script src="../js/jquery.min.js"></script>
         <script src="../js/tether.min.js"></script>
         <script src="../js/bootstrap.min.js"></script>
